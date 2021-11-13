@@ -31,7 +31,7 @@ Example: An assembly of sprites to create a more complex asset.
 ### Inputs - 
 These should be used for functionally defining interfaced pieces that can be used within the specs such as constant, data formats, or nested specifications. All Inputs should be grouped with a suitable default.
 
-####C onstants Examples:
+#### Constants Examples:
 In defining a sprite assembly an overall aspect ratio could be (1,2) or one half as wide as tall, since that is the default in is not needed to be included in the specification inputs. IVGS1_SA1_H1_I1_1(image_format:jpg) 
 A default unit could be one as defined as the systems float, but the unit could be overwritten as a functional spec with the inputs to use as pixels as opposed to the default of the systems dimensional float: IVGS1_SA1_H1_I1_1(image_format: jpg, units: px)
 #### Format Example:
